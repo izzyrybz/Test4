@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Toast.makeText(MainActivity.this, "welcome",
+                Toast.LENGTH_LONG).show();
 
         setContentView(R.layout.activity_main);
         bluetooth_switch = (Switch) findViewById(R.id.blue_switch);
