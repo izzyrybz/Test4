@@ -18,6 +18,7 @@ import java.util.Set;
 public class MainActivity extends AppCompatActivity {
     private static final int REQUEST_ENABLE_BT =  0;
     private Switch bluetooth_switch;
+    private int i;
     private bluetooth_class btHandler = new bluetooth_class();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
